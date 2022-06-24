@@ -51,6 +51,7 @@ public class LoginPageStepDefinitions {
     @Then("user should see the dashboard")
     public void user_should_see_the_dashboard() {
 
+        Assert.assertTrue(dashBoardPage.usersText.isDisplayed());
 
     }
 

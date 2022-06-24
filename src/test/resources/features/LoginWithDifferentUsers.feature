@@ -24,7 +24,6 @@ Feature: Scenario Outline Example
       | student39@library | kCrQEt6X | Test Student 39 |
       | student40@library | ZkFJCgOd | Test Student 40 |
 
-    #@librarians
     Examples:
       | email               | password | name              |
       | librarian13@library | YCJCbmU3 | Test Librarian 13 |
