@@ -4,6 +4,7 @@ import com.library.utilities.BrowserUtils;
 import com.library.utilities.Driver;
 import io.cucumber.java.After;
 import io.cucumber.java.AfterStep;
+import io.cucumber.java.BeforeStep;
 import io.cucumber.java.Scenario;
 import org.openqa.selenium.OutputType;
 import org.openqa.selenium.TakesScreenshot;
@@ -14,6 +15,8 @@ public class Hooks {
     public void esver(){
         BrowserUtils.sleep(1);
     }
+
+
 
     @After
     public void tearDwn(Scenario scenario){
